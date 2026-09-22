@@ -1,6 +1,6 @@
 # Shefy
 
-Shefy is a lightweight AI waiter for WordPress and WooCommerce.
+Shefy is a lightweight AI waiter for WordPress and WooCommerce. FULLY LLM GENERATED, (exceot these words here, they were writen by meat tenticles).
 
 It uses the restaurant's WooCommerce menu as structured context, sends customer questions to an LLM, and returns conversational recommendations plus WooCommerce product IDs that can be rendered as product cards.
 
