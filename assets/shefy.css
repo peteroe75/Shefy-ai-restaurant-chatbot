@@ -1,0 +1,59 @@
+.shefy {
+    max-width: 720px;
+    margin: 2rem auto;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.shefy__messages {
+    min-height: 320px;
+    max-height: 560px;
+    overflow-y: auto;
+    padding: 1rem;
+    background: #f7f7f7;
+}
+
+.shefy__message {
+    width: fit-content;
+    max-width: 82%;
+    margin: 0 0 .75rem;
+    padding: .75rem 1rem;
+    border-radius: 12px;
+    line-height: 1.45;
+}
+
+.shefy__message--assistant {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.shefy__message--user {
+    margin-left: auto;
+    background: #222;
+    color: #fff;
+}
+
+.shefy__message--error {
+    background: #fff0f0;
+    border: 1px solid #e2bcbc;
+}
+
+.shefy__form {
+    display: flex;
+    gap: .75rem;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+.shefy__input {
+    flex: 1;
+    min-width: 0;
+    padding: .8rem .9rem;
+}
+
+.shefy__send {
+    padding: .8rem 1.2rem;
+    cursor: pointer;
+}
